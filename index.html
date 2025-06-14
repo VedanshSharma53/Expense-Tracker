@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <span class="logo">Finance Tracker</span>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="reports.html">Reports</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+
+
+    <div class="input-section">
+        <input type="text" id="expense-name" placeholder="Expense Name">
+        <input type="number" id="expense-amount" placeholder="Amount">
+        <input type="date" id="expense-date">
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <div class="expenses-list">
+        <h3>Expense List</h3>
+        <table id="expense-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="expense-body">
+                <!-- Expenses will be added dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script>if (!localStorage.getItem('loggedInUser')) {
+            alert('Please log in first!');
+            window.location.href = 'login.html';
+        }</script>
+    <script src="script.js"></script>
+</body>
+</html>
