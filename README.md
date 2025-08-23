@@ -208,30 +208,6 @@ The application includes comprehensive sample data:
 - Predefined budgets
 - System notifications
 
-## 🎨 Customization
-
-### Themes & Styling
-- Modify `src/main/webapp/css/style.css` for custom themes
-- Update color schemes in CSS variables
-- Add custom animations and transitions
-
-### Adding Features
-- Create new JSP pages in `webapp/`
-- Add corresponding servlets in `src/main/java/com/expense/`
-- Update navigation in existing pages
-
-### Database Extensions
-- Add new tables as needed
-- Create database views for complex queries
-- Implement stored procedures for business logic
-
-### Performance Optimization
-
-1. **Database Indexing**: Ensure proper indexes on frequently queried columns
-2. **Connection Pooling**: Implement database connection pooling
-3. **Caching**: Add caching for frequently accessed data
-4. **Minification**: Minify CSS and JavaScript files
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -239,16 +215,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📊 Screenshots
 
 ### Dashboard
-![Dashboard](docs/images/dashboard.png)
+![Dashboard](src\main\webapp\images\profile.png)
 
 ### Reports & Analytics
-![Reports](docs/images/reports.png)
+![Reports](src\main\webapp\images\report.png)
 
 ### Budget Management
-![Budget](docs/images/budget.png)
+![Budget](src\main\webapp\images\budget.png)
 
 ### Profile & Settings
-![Profile](docs/images/profile.png)
+![Profile](src\main\webapp\images\profile.png)
 
 ---
 
