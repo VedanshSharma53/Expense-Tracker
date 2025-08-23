@@ -215,7 +215,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📊 Screenshots
 
 ### Dashboard
-![Dashboard](src\main\webapp\images\profile.png)
+![Dashboard](src/main/webapp/images/profile.png)
 
 ### Reports & Analytics
 ![Reports](src\main\webapp\images\report.png)
