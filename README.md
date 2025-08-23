@@ -218,13 +218,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Dashboard](src/main/webapp/images/profile.png)
 
 ### Reports & Analytics
-![Reports](src\main\webapp\images\report.png)
+![Reports](src/main/webapp/images/report.png)
 
 ### Budget Management
-![Budget](src\main\webapp\images\budget.png)
+![Budget](src/main/webapp/images/budget.png)
 
 ### Profile & Settings
-![Profile](src\main\webapp\images\profile.png)
+![Profile](src/main/webapp/images/profile.png)
 
 ---
 
