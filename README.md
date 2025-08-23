@@ -225,46 +225,6 @@ The application includes comprehensive sample data:
 - Create database views for complex queries
 - Implement stored procedures for business logic
 
-## 🔧 Troubleshooting
-
-### Common Issues
-
-#### Database Connection Errors
-```
-Solution:
-1. Verify MySQL service is running
-2. Check connection credentials in DatabaseConnection.java
-3. Ensure MySQL connector JAR is in classpath
-4. Test connection with MySQL Workbench
-```
-
-#### Tomcat Deployment Issues
-```
-Solution:
-1. Clean and rebuild project
-2. Check Tomcat server configuration
-3. Verify project facets (Dynamic Web Project)
-4. Restart Tomcat server
-```
-
-#### JSP Compilation Errors
-```
-Solution:
-1. Check for missing imports
-2. Verify JSP syntax
-3. Ensure all required JARs are included
-4. Clean workspace and refresh project
-```
-
-#### JavaScript/CSS Not Loading
-```
-Solution:
-1. Check file paths in JSP pages
-2. Verify Tomcat static resource handling
-3. Clear browser cache
-4. Check browser console for errors
-```
-
 ### Performance Optimization
 
 1. **Database Indexing**: Ensure proper indexes on frequently queried columns
@@ -272,51 +232,9 @@ Solution:
 3. **Caching**: Add caching for frequently accessed data
 4. **Minification**: Minify CSS and JavaScript files
 
-## 🤝 Contributing
-
-### Development Workflow
-1. Fork the repository
-2. Create feature branch
-3. Implement changes with tests
-4. Submit pull request
-
-### Coding Standards
-- Follow Java naming conventions
-- Comment complex business logic
-- Use consistent indentation
-- Write meaningful commit messages
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-### Documentation
-- Check this README for setup instructions
-- Review code comments for implementation details
-- Refer to database schema documentation
-
-### Getting Help
-- Create GitHub issues for bugs
-- Discussion forums for questions
-- Email support for urgent issues
-
-## 🔮 Future Enhancements
-
-### Planned Features
-- **Mobile App**: React Native mobile application
-- **Advanced Analytics**: Machine learning insights
-- **Multi-currency**: Support for multiple currencies
-- **Team Budgets**: Shared family/team expense tracking
-- **Integration**: Bank account synchronization
-- **Receipts**: Photo upload and OCR processing
-
-### Technical Improvements
-- **REST API**: RESTful API development
-- **Microservices**: Service-oriented architecture
-- **Cloud Deployment**: AWS/Azure deployment
-- **Docker**: Containerization support
 
 ## 📊 Screenshots
 
