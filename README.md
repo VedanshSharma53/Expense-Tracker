@@ -1,4 +1,4 @@
-# 💰 Expense Tracker Web Application
+# 💰 Expense Tracker
 
 A comprehensive, feature-rich expense tracking web application built with **Java JSP/Servlets**, **MySQL**, and modern **HTML5/CSS3/JavaScript**. Perfect for managing personal finances, tracking expenses, setting budgets, and generating detailed financial reports.
 
